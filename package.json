@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod:build": "cd client && yarn build",
+    "dev:devserver": "cd client && yarn start"
   },
   "keywords": [],
   "author": "",
